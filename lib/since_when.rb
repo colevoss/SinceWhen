@@ -1,5 +1,7 @@
 require "since_when/version"
 
 module SinceWhen
-  # Your code goes here...
+  def self.time_since
+    'time time time time time time time time'
+  end
 end

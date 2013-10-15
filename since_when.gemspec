@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = SinceWhen::VERSION
   spec.authors       = ["colevoss"]
   spec.email         = ["voss.cole@gmail.com"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
+  spec.description   = %q{Various Date and Time helpers}
+  spec.summary       = %q{Returns time since given date in various formats}
   spec.homepage      = ""
   spec.license       = "MIT"
 
