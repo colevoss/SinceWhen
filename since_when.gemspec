@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["voss.cole@gmail.com"]
   spec.description   = %q{Various Date and Time helpers}
   spec.summary       = %q{Returns time since given date in various formats}
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/colevoss/SinceWhen"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
