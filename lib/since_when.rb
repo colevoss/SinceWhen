@@ -8,7 +8,9 @@ module SinceWhen
     time_string = ""
 
     if date.class != Date
-      date = date.to_datetime
+      unless date.class == DateTime
+        date = date.to_datetime
+      end
       hour_dif = DateTime.now.hour - date.hour
       minute_dif = DateTime.now.minute - date.minute
       second_dif = DateTime.now.second - date.second
