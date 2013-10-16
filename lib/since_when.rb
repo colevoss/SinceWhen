@@ -49,7 +49,7 @@ module SinceWhen
     end
 
     if year_dif > 0
-      time_string << "#{year_dif} #{year_dif > 1 ? 'years ' : 'year '}"
+      time_string << "#{year_dif} #{year_dif > 1 ? 'years' : 'year' }"
     end
 
     if month_dif > 0

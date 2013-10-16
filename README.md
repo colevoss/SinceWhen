@@ -1,6 +1,7 @@
 # SinceWhen
 
-TODO: Write a gem description
+Returns a string containing the amount of time since the date given with
+varying scopes of specificy.
 
 ## Installation
 
@@ -18,7 +19,7 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+SinceWhen::time_since date, :scope
 
 ## Contributing
 
