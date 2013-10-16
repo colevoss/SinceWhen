@@ -21,6 +21,8 @@ Or install it yourself as:
 
     SinceWhen::time_since( date, :scope )
     
+Scope can be any of the following: :year, :month, :day, :hour, :minute, :second
+    
 Example:
     
     example_date = Date.new(2001, 2, 3)
