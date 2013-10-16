@@ -3,6 +3,9 @@
 Returns a string containing the amount of time since the date given with
 varying scopes of specificy.
 
+**Currently on the drawing board:
+* Support for weeks
+
 ## Installation
 
 Add this line to your application's Gemfile:
@@ -29,7 +32,7 @@ Scope can be any of the following:
 * :minute
 * :second
     
-Example:
+## Example:
     
     example_date = Date.new(2001, 2, 3)
     
