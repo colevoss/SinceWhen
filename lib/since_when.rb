@@ -14,6 +14,10 @@ module SinceWhen
       hour_dif = DateTime.now.hour - date.hour
       minute_dif = DateTime.now.minute - date.minute
       second_dif = DateTime.now.second - date.second
+      
+      if (DateTime.now - date) < 0
+        throw "Future dates are not allowed."
+      end
     end
 
     day_dif = Date.today.day - date.day
