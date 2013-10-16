@@ -24,12 +24,12 @@ Or install it yourself as:
 
 ## Usage
 
-    SinceWhen::time_since( date, :scope )
+    SinceWhen::time_since( date, :scope = optional )
 
 * date can be a Date object, DateTime object, or anything else that can be turned into a DateTime object (ie. ActiveSupport::TimeWithZone)    
 * Scope can be any of the following:
     * :year
-    * :month
+    * :month (default)
     * :day
     * :hour
     * :minute
