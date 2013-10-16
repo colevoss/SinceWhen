@@ -19,7 +19,16 @@ Or install it yourself as:
 
 ## Usage
 
-SinceWhen::time_since date, :scope
+    SinceWhen::time_since( date, :scope )
+    
+Example:
+    
+    example_date = Date.new(2001, 2, 3)
+    
+    SinceWhen::time_since( example_date, :day)
+    
+    >> "12 years 8 months 12 days"
+    
 
 ## Contributing
 
