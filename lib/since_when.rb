@@ -1,4 +1,5 @@
 require "since_when/version"
+require "date"
 
 module SinceWhen
   def self.time_since date, scope = :month
