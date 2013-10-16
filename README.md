@@ -23,7 +23,8 @@ Or install it yourself as:
 ## Usage
 
     SinceWhen::time_since( date, :scope )
-    
+
+date can be a Date object, DateTime object, or anything else that can be turned into a DateTime object (ie. ActiveSupport::TimeWithZone)    
 Scope can be any of the following:
 * :year
 * :month
