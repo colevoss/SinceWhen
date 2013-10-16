@@ -3,6 +3,9 @@
 Returns a string containing the amount of time since the date given with
 varying scopes of specificy.
 
+**Currently on the drawing board:
+* Support for weeks
+
 ## Installation
 
 Add this line to your application's Gemfile:
@@ -17,11 +20,22 @@ Or install it yourself as:
 
     $ gem install since_when
 
+**Make sure the date gem is required in app as well
+
 ## Usage
 
-    SinceWhen::time_since( date, :scope )
+    SinceWhen::time_since( date, :scope = optional )
+
+* date can be a Date object, DateTime object, or anything else that can be turned into a DateTime object (ie. ActiveSupport::TimeWithZone)    
+* Scope can be any of the following:
+    * :year
+    * :month (default)
+    * :day
+    * :hour
+    * :minute
+    * :second
     
-Example:
+## Example:
     
     example_date = Date.new(2001, 2, 3)
     
