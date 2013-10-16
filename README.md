@@ -25,6 +25,12 @@ Example:
     
     example_date = Date.new(2001, 2, 3)
     
+    SinceWhen::time_since( example_date, :month )
+
+    >> "12 years 8 months"
+
+    # or
+
     SinceWhen::time_since( example_date, :day)
     
     >> "12 years 8 months 12 days"
