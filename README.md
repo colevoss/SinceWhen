@@ -21,7 +21,13 @@ Or install it yourself as:
 
     SinceWhen::time_since( date, :scope )
     
-Scope can be any of the following: :year, :month, :day, :hour, :minute, :second
+Scope can be any of the following:
+* :year
+* :month
+* :day
+* :hour
+* :minute
+* :second
     
 Example:
     
