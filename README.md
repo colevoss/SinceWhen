@@ -20,6 +20,8 @@ Or install it yourself as:
 
     $ gem install since_when
 
+**Make sure the date gem is required in app as well
+
 ## Usage
 
     SinceWhen::time_since( date, :scope )
